@@ -16,7 +16,7 @@ $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black:    #1d1d1d !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -36,7 +36,8 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:    #0d6efd !default;
+//$blue:    #0d6efd !default;
+$blue:    #0063AC !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
@@ -320,6 +321,20 @@ $theme-colors: (
   "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
+
+
+// YACHTCLUBOLBIA color map
+$yachtclubolbia-colors: (
+  "yco-darkblue": #00354A,
+  "yco-darkcyan": #348AAE,
+  "yco-cyan": #72C7DB,
+  "yco-light": #F3F7F9
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $yachtclubolbia-colors);
+
+
 
 // Characters which are escaped by the escape-svg function
 $escaped-characters: (

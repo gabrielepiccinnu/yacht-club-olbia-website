@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+.yachtclubolbia-logo {
+    background-image: url(../img/yachtclubolbia_logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 290px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.btn-yachtclubolbia-icon {
+    padding-left: ($input-btn-padding-x)!important; 
+}
+
+.yachtclubolbia-icon::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain; 
+    display: inline-block;
+    margin-right: .825rem;
+}
+
+.icon-login::after {
+    background-image: url(../img/icon-login.svg);
+    width: 16px;
+    height: 13px;
+}
+
+.bg-yachtclubolbia-vector-1 {
+    background-image: url(../img/yachtclubolbia-bg-vector-1.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: .5rem;
+}
+
+@media screen and (min-width: 991px) {
+    .bg-yachtclubolbia-vector-1 {
+        background-position-x: right;
+        background-position-y: 350px;
+        padding-bottom: 280px;
+    }
+}
+ 
+.bg-yachtclubolbia-vector-2 {
+    background-image: url('../img/yachtclubolbia-bg-vector-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    background-attachment: fixed;
+}
