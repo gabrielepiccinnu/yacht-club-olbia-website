@@ -39,7 +39,7 @@
 }
 
 .bg-yachtclubolbia-vector-1 {
-    background-image: url(../img/yachtclubolbia-bg-vector-1.svg);
+    background-image: url('../img/yachtclubolbia-bg-vector-1.svg');
     background-repeat: no-repeat;
     background-size: auto;
     padding-bottom: .5rem;
@@ -53,12 +53,17 @@
     }
 }
  
-.bg-yachtclubolbia-vector-2 {
-    background-image: url('../img/yachtclubolbia-bg-vector-2.svg');
+ 
+
+
+.yco-footer-pattern {
+    background-image: url('../img/yco-footer-vector.svg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top left;
-    background-attachment: fixed;
+    background-position: bottom left;
+    min-height: 10rem;
+
+
 }
 
 
@@ -77,6 +82,16 @@
         max-height: 100vh;
     }
 
+    .yco-footer-pattern {
+        min-height: 39rem;
+       
+    
+    }
+
 
 }
  
+.section-pretitle {
+    text-transform: uppercase;
+    color: $primary;
+}
