@@ -15,7 +15,14 @@
 
 
 .btn-yachtclubolbia-icon {
+    display: flex;
     padding-left: ($input-btn-padding-x)!important; 
+    align-items: center;
+}
+
+.btn-yachtclubolbia-icon .yachtclubolbia-icon {
+    display: flex;
+    padding-left: 0.5rem;
 }
 
 .yachtclubolbia-icon::after {
@@ -23,13 +30,12 @@
     background-repeat: no-repeat;
     background-size: contain; 
     display: inline-block;
-    margin-right: .825rem;
 }
 
 .icon-login::after {
-    background-image: url(../img/icon-login.svg);
+    background-image: url(../icons/icon-login.svg);
     width: 16px;
-    height: 13px;
+    height: 19px;
 }
 
 .bg-yachtclubolbia-vector-1 {
@@ -54,3 +60,23 @@
     background-position: top left;
     background-attachment: fixed;
 }
+
+
+
+
+@media screen and (min-width: 992px) {
+    .navbar-main-yco, .navbar-topmenu-yco {
+        max-height: 3.75rem;
+    }
+
+    .navbar-main-yco a.navbar-brand {
+        margin-top: -3.75rem;
+    }
+
+    #ycoHomeSlider .carousel-item {
+        max-height: 100vh;
+    }
+
+
+}
+ 
