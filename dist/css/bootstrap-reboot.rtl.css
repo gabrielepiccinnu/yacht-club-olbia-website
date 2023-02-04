@@ -54,16 +54,16 @@
   --bs-yco-light-rgb: 243, 247, 249;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 29, 29, 29;
-  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-color-rgb: 53, 53, 53;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Jost", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #353535;
   --bs-body-bg: #fff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -117,6 +117,7 @@ hr {
 h6, h5, h4, h3, h2, h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Noto Serif", serif;
   font-weight: 500;
   line-height: 1.2;
 }
