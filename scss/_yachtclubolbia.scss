@@ -51,9 +51,36 @@
         background-position-y: 350px;
         padding-bottom: 280px;
     }
+
+    .title-section .bg-image {
+        min-height: 520px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.title-section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-section h1::after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain; 
+    display: inline-block;
+    background-image: url('../icons/icon-title-separator-white.svg');
+    background-position: center;
+    width: 90px;
+    height: 10px;
+    margin-top: .725rem;
 }
  
- 
+.text-shadow {
+    text-shadow: 0 0 5px rgba($black, .625);
+}
 
 
 .yco-footer-pattern {
