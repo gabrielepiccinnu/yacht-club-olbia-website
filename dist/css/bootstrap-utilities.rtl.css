@@ -133,7 +133,7 @@
 }
 
 .text-bg-yco-darkcyan {
-  color: #1d1d1d !important;
+  color: #fff !important;
   background-color: RGBA(52, 138, 174, var(--bs-bg-opacity, 1)) !important;
 }
 
@@ -214,7 +214,7 @@
   color: #348AAE !important;
 }
 .link-yco-darkcyan:hover, .link-yco-darkcyan:focus {
-  color: #5da1be !important;
+  color: #2a6e8b !important;
 }
 
 .link-yco-cyan {
