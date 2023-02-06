@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap");
 :root {
   --bs-blue: #0063AC;
   --bs-indigo: #6610f2;
@@ -64,7 +64,7 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
+  --bs-body-font-weight: 300;
   --bs-body-line-height: 1.5;
   --bs-body-color: #353535;
   --bs-body-bg: #fff;
@@ -208,7 +208,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 dd {
@@ -222,7 +222,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 small, .small {
@@ -2187,7 +2187,7 @@ progress {
   width: 100%;
   padding: 0.375rem 1.25rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #353535;
   background-color: #fff;
@@ -2374,7 +2374,7 @@ textarea.form-control-lg {
   padding: 0.375rem 3.75rem 0.375rem 1.25rem;
   -moz-padding-start: calc(1.25rem - 3px);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #353535;
   background-color: #fff;
@@ -2755,7 +2755,7 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.375rem 1.25rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
   color: #353535;
   text-align: center;
@@ -5025,7 +5025,7 @@ textarea.form-control-lg {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
   --bs-badge-font-size: 0.75em;
-  --bs-badge-font-weight: 700;
+  --bs-badge-font-weight: 600;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: 0.375rem;
   display: inline-block;
@@ -5071,7 +5071,7 @@ textarea.form-control-lg {
 }
 
 .alert-link {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .alert-dismissible {
@@ -8705,15 +8705,15 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 700 !important;
-}
-
-.fw-semibold {
   font-weight: 600 !important;
 }
 
+.fw-semibold {
+  font-weight: 500 !important;
+}
+
 .fw-bolder {
-  font-weight: bolder !important;
+  font-weight: 700 !important;
 }
 
 .lh-1 {
