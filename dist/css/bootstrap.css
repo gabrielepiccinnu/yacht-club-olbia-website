@@ -6509,8 +6509,8 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 15px;
+  height: 5px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -12110,6 +12110,54 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#comments {
+  max-width: 30rem;
+}
+
+#comments.comments-area p.form-submit input#submit {
+  background-color: var(--bs-saily-dark-blue);
+  padding: 0.425rem 0.9rem;
+}
+
+#comments.comments-area p.comment-form-url {
+  display: none;
+}
+
+#comments.comments-area p[class^=comment-form-] > label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+#comments.comments-area p[class^=comment-form-] > input[type=email], #comments.comments-area p[class^=comment-form-] > input[type=text], #comments.comments-area p[class^=comment-form-] > textarea {
+  width: 100%;
+  border-radius: 0;
+  outline-width: 0;
+  border: 1px solid #ced4da;
+}
+
+#comments.comments-area p[class^=comment-form-] > textarea {
+  max-height: 100px;
+}
+
+#comments p.comment-form-cookies-consent > label[for=wp-comment-cookies-consent] {
+  font-size: 0.8rem;
+}
+
+.tribe-events .tribe-events-c-search__button {
+  background-color: var(--bs-blue);
+}
+
+.tribe-common .tribe-common-c-btn, .tribe-common a.tribe-common-c-btn {
+  border-radius: 3rem;
+}
+
+.tribe-common .tribe-common-c-btn-border, .tribe-common a.tribe-common-c-btn-border {
+  border-radius: 3rem;
+  border: 1px solid var(--bs-blue);
+  color: var(--bs-blue);
+}
+
 .yachtclubolbia-logo {
   background-image: url(../img/yco-logo.svg);
   background-repeat: no-repeat;
