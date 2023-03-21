@@ -61,6 +61,8 @@
 
 
 
+
+
 .yachtclubolbia-logo {
     background-image: url(../img/yco-logo.svg);
     background-repeat: no-repeat;
@@ -70,6 +72,18 @@
     display: block;
     margin: 0 auto;
 }
+
+
+.yachtclubolbia-logo {
+    max-height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .yachtclubolbia-logo {
+        max-height: inherit;
+    }
+}
+
 
 
 .btn-yachtclubolbia-icon {
