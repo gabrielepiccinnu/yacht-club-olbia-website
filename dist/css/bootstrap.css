@@ -5,7 +5,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap");
 :root {
   --bs-blue: #0063AC;
@@ -12168,6 +12168,15 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
+.yachtclubolbia-logo {
+  max-height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .yachtclubolbia-logo {
+    max-height: inherit;
+  }
+}
 .btn-yachtclubolbia-icon {
   display: flex;
   padding-left: 1.25rem !important;
